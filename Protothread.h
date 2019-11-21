@@ -63,6 +63,9 @@ public:
     // of its Run() function.
     Protothread() : _ptLine(0) { }
 
+    // Add a virtual destructor to allow any inheritance cleanup
+    virtual ~Protothread() {}
+
     // Restart protothread.
     void Restart() { _ptLine = 0; }
 
