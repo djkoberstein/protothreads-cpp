@@ -1,6 +1,7 @@
 project(
     'protothread_test',
-    'cpp'
+    'cpp',
+    version: '1.0.0'
 )
 
 inc = include_directories(
